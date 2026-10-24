@@ -1,0 +1,11 @@
+{
+  "name": "genpark-circuit-breaker-fault-sentinel-skill",
+  "version": "1.0.1",
+  "description": "Three-state circuit breaker with failure rate tripping and automatic half-open probe recovery for resilient agent calls",
+  "tools": [
+    "can_execute",
+    "record_result",
+    "get_state",
+    "reset"
+  ]
+}
