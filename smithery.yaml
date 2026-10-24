@@ -1,0 +1,7 @@
+name: genpark-circuit-breaker-fault-sentinel-skill
+description: Three-state circuit breaker with failure rate tripping and automatic half-open probe recovery for resilient agent calls
+version: 1.0.1
+entrypoint: mcp_server.py
+command: python
+args:
+  - mcp_server.py
